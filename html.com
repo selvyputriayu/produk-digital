@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Data Berhasil Dikirim</h2>
+<p>Nama: {{ nama }}</p>
+<p>Email: {{ email }}</p>
+{% endblock %}
